@@ -2,7 +2,13 @@ import HiddenDealsCard from "./HiddenDealsCard"
 const HiddenDeals = () => {
     return (
         <>
-        <HiddenDealsCard />
+            <h1>Croma Exclusives: Hidden Deals Inside!</h1>
+            <div style={{display: "flex", }}>
+                <HiddenDealsCard />
+                <HiddenDealsCard />
+                <HiddenDealsCard />
+                <HiddenDealsCard />
+            </div>
         </>
     )
 }
